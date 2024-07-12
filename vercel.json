@@ -1,8 +1,8 @@
 {
     "version": 2,
-    "name": "music-album",
+    "name": "hire-minds",
     "builds": [
-       { "src": "app.js", "use": "@vercel/node" }
+       { "src": "*.js", "use": "@vercel/node" }
     ],
     "routes": [
        { "src": "/(.*)", "dest": "/app.js" }
