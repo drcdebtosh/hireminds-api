@@ -10,8 +10,8 @@ public/build/
 build/
 
 # Database files
-.env
-config
+# .env
+# config
 
 # IDE temporary/cache files
 .vscode/
