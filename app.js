@@ -15,7 +15,7 @@ import {errorMiddleware} from './middlewares/error.js'
 const app = express();
 dotenv.config({path:"./config/config.env"})
 app.use(cors({
-    origin : 'https://hireminds.vercel.app',
+    origin : ["https://hireminds.vercel.app", "https://hireminds-debatosh-roychowdhurys-projects.vercel.app","http://http://localhost:5173"],
     methods: ["GET","POST", "PUT","DELETE"],
     credentials: true,
 }))
